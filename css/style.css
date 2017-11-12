@@ -62,6 +62,7 @@ figcaption {
   text-decoration: none;
 }
 
+
 #details a:hover {
   color: black;
   text-decoration: underline;
@@ -69,4 +70,23 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+
+/* ///////layout///////////*/
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee;
+}
+
+.col-1 {
+  float: left;
+}
+
+.col-2 {
+  float: left;
+}
+
+.col-3 {
+  
 }
